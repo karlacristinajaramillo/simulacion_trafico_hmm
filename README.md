@@ -39,9 +39,6 @@ un cambio en la matriz de transición afecta una corrida simulada.
 
 ## Limitaciones conocidas
 
-- La simulación del incidente usa una matriz de transición distinta, pero la
-  función Viterbi siempre decodifica con la matriz base. Por eso la detección
-  del incidente no está modelada con una matriz dinámica.
 - El cuaderno no calcula métricas de precisión de Viterbi frente a los estados
   reales simulados.
 - Las emisiones son factores promedio supuestos en g/km según el estado. No
